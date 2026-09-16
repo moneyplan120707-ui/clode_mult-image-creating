@@ -1,13 +1,1 @@
-# 금광롱폼 파이프라인 + tools/ 의 모든 도구가 쓰는 패키지 (runtime/ 에 설치됨: python setup_runtime.py)
-openpyxl>=3.1            # 엑셀 (모든 도구)
-pillow>=10               # 이미지 (Vrew_Connector 크롭, EasyMultyFlow)
-numpy>=1.26              # GrokAutoNumbering
-requests>=2.31           # GrokVideoGen 다운로드
-playwright>=1.45         # EasyMultyFlow (이멀플) — 브라우저는 runtime/ms-playwright 에 별도 설치
-PySide6>=6.6             # EasyMultyFlow, GrokVideoGen GUI
-selenium>=4.20           # Multi_Genspark, GrokVideoGen, Multi_Flow
-undetected-chromedriver>=3.5   # 봇 탐지 우회 (Chrome 설치 필요)
-opencv-python>=4.9       # GrokAutoNumbering 프레임 매칭
-tkinterdnd2>=0.4         # Vrew_Connector 드래그앤드롭 (선택)
-beautifulsoup4>=4.12     # CSV_TO_EXCEL MHTML 파싱
-anthropic>=0.40          # 스토리보드 API 백엔드 (선택 — 키가 없으면 클로드코드 세션이 스토리보드를 쓴다)
+
