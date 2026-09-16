@@ -1,18 +1,1 @@
-# 줄바꿈: 저장소는 LF, 윈도우 체크아웃은 CRLF (수강생 PC 가 전부 윈도우)
-* text=auto
 
-*.py    text eol=lf
-*.md    text eol=lf
-*.txt   text eol=lf
-*.json  text eol=lf
-*.js    text eol=lf
-*.css   text eol=lf
-*.html  text eol=lf
-*.ps1   text eol=crlf
-*.bat   text eol=crlf
-
-*.ico   binary
-*.png   binary
-*.jpg   binary
-*.vrew  binary
-*.xlsx  binary
