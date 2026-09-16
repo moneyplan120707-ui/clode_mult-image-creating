@@ -1,0 +1,58 @@
+# ── 실행 환경 (각자 PC 에서 setup.ps1 로 설치한다. 1.8GB) ───────────────
+runtime/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# ── 로그인 · 계정 (절대 올리지 않는다) ─────────────────────────────────
+tools/browser_profile/
+tools/accounts.json
+tools/_rpc_debug/
+*.session
+.env
+
+# ── 작업 산출물 (프로젝트별 폴더는 각자 로컬에만) ─────────────────────
+projects/*
+!projects/README.md
+*.vrew
+studio_defaults.json
+*.log
+
+# ── 캐릭터 참조 이미지 (각자 준비) ────────────────────────────────────
+characters/*
+!characters/README.md
+tools/characters/
+
+# ── 배포 빌드 ─────────────────────────────────────────────────────────
+build/
+dist/
+*.spec.bak
+
+# ── Claude Code 개인 설정 ─────────────────────────────────────────────
+.claude/settings.local.json
+
+# ── OS · 편집기 ───────────────────────────────────────────────────────
+Thumbs.db
+desktop.ini
+.DS_Store
+.idea/
+.vscode/
+*.swp
+~$*
+
+# ── 수강생 실행에 필요 없는 것 ────────────────────────────────────────
+# exe 빌드용 (PyInstaller spec + 아이콘)
+packaging/
+
+# 파이프라인이 쓰지 않는 단독 GUI 도구 (로컬에는 그대로 남아 있다)
+tools/Workflow_Agent_V5_5.py
+tools/Multi_Flow_V10_2.py
+tools/GrokVideoGen_v2_0.py
+tools/GrokAutoNumbering_V3_6.py
+tools/Easy_CapCut_V3_5.py
+tools/SRT_Tool_V1_2.py
+tools/CSV_TO_EXCEL_V2_6.py
+
+# prompts/ 사본과 같은 파일 (루트 중복본)
+/20260315_스토리보드_프롬프트_마법사_v2_10.txt
